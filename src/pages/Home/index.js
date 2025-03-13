@@ -23,9 +23,32 @@ function App() {
 
       if (newRepos.length) {
         setRepos(newRepos);
+      } else {
+        setCurrentUser(null); 
+        setRepos(null);
       }
-    }
+    } 
   };
+
+  let content;
+  if (currentUser === null) {
+    content = 
+    <h2 className="informations-title">Digite aqui o nome do usuário que deseja buscar no GitHub</h2>
+  } else {
+    content = (
+      <>
+        <div className="profile">
+          <img src={currentUser.avatar_url} alt="foto perfil" className="profile-photo" />
+          <div className="profile-info">
+            <h3>{currentUser.name}</h3>
+            <span>@{currentUser.login}</span>
+            <p>{currentUser.bio}</p>
+          </div>
+        </div>
+        <hr />
+      </>
+    );
+  }
 
   return <div className="App">
     <Header />
@@ -40,7 +63,7 @@ function App() {
           <button onClick={handleGetData} >Buscar</button>
         </div>
 
-        {currentUser?.name ? (
+        {content/* {currentUser?.name ? (
           <>
             <div className="profile">
               <img src={currentUser.avatar_url} alt="foto perfil" className="profile-photo" />
@@ -52,7 +75,7 @@ function App() {
             </div>
             <hr />
           </>
-        ) : (null)}
+        ) : (null)} */}
 
         {repos?.length ? (
           <div className="repository">

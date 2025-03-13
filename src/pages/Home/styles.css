@@ -44,7 +44,14 @@ button {
     background: #2D333B;
     font-size: 18px;
     color: #FFFFFF;
+    cursor: pointer;
 }
+
+button:hover {
+    scale: 1.05;
+    transition: ease-in-out .3s;
+}
+
 
 .profile {
     display: flex;
@@ -74,7 +81,7 @@ button {
 
 .profile-info p {
     color: #999999 ;
-    font-size: 12px;
+    font-size: 15px;
     margin: 20px 0 0 0;    
 }
 
