@@ -13,3 +13,32 @@ h1{
     font-size: 32px;
     color: #FFFFFF;
 }
+
+.wiggle {
+    animation: wiggle 2.2s linear infinite; 
+}
+
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0);
+    }
+    15% {
+        transform: rotate(-15deg);
+    }
+    20% {
+        transform: rotate(10deg);
+    }
+    25% {
+        transform: rotate(-10deg);
+    }
+    30% {
+        transform: rotate(10deg);
+    }
+    35% {
+        transform: rotate(-10deg);
+    }
+    40%, 100% {
+        transform: rotate(0);
+    }
+}
