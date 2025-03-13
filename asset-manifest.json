@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/gitfind/static/css/main.25ad8603.css",
-    "main.js": "/gitfind/static/js/main.21c89a48.js",
+    "main.js": "/gitfind/static/js/main.2628efd4.js",
     "index.html": "/gitfind/index.html",
     "main.25ad8603.css.map": "/gitfind/static/css/main.25ad8603.css.map",
-    "main.21c89a48.js.map": "/gitfind/static/js/main.21c89a48.js.map"
+    "main.2628efd4.js.map": "/gitfind/static/js/main.2628efd4.js.map"
   },
   "entrypoints": [
     "static/css/main.25ad8603.css",
-    "static/js/main.21c89a48.js"
+    "static/js/main.2628efd4.js"
   ]
 }
