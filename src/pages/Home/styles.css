@@ -1,0 +1,86 @@
+.content {
+position: relative;
+
+display: flex;
+align-items: flex-start;
+justify-content: flex-end;
+}
+
+.background {
+    height: 100vh;
+    position: absolute;
+    left: 0;
+}
+
+.informations {
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+.informations-title {
+    font-size: 20px;
+    margin: 12px;
+    font-weight: 500;
+}
+
+input {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    min-width: 250px;
+    width: 83%;
+    margin-right: 12px;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+button {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    padding: 10px 20px;
+    background: #2D333B;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.profile {
+    display: flex;
+    margin: 40px 10px;
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 2px solid #E5E5E5;
+    margin-right: 32px;
+}
+
+.profile-info h3 {
+    color: #999999 ;
+    font-size: 24px;
+    margin: 0;
+}
+
+.profile-info span {
+    display: block;
+    color: #999999 ;
+    font-size: 12px;
+    margin: 0;    
+}
+
+.profile-info p {
+    color: #999999 ;
+    font-size: 12px;
+    margin: 20px 0 0 0;    
+}
+
+.repository-title {
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 12px 0;
+    text-align: center;
+}
