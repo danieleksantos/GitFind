@@ -4,7 +4,7 @@ O **GitFind** é uma aplicação construída com React que permite aos usuários
 
 ## 🌐 Link da Aplicação
 
-Você pode acessar a versão final da aplicação aqui: [GitFind - Buscar Usuários no GitHub](https://danieleksantos.github.io/GitFind-Buscar-Usuarios-GitHub/)
+Você pode acessar a versão final da aplicação aqui: [GitFind - Buscar Usuários no GitHub](https://danieleksantos.github.io/GitFind-Buscar-Usuarios/)
 
 ## 🔧 Tecnologias e Ferramentas Utilizadas
 
